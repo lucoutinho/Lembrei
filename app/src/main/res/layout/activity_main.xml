@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lembrei!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Novo Lembrete"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnNotificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Testar notificação"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvLembrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#111827"
+        android:background="#F3F4F6"
+        android:padding="12dp"/>
+
+</LinearLayout>
